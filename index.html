@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Happy 18th Birthday, Leena ❤️</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: "Georgia", serif;
+      background:
+        radial-gradient(circle at top, #3b173b 0%, #160b20 45%, #08050d 100%);
+      color: white;
+      overflow-x: hidden;
+    }
+
+    /* Floating hearts */
+    .heart {
+      position: fixed;
+      bottom: -30px;
+      font-size: 20px;
+      animation: float 8s linear infinite;
+      opacity: 0.7;
+      pointer-events: none;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0;
+      }
+      15% {
+        opacity: 0.8;
+      }
+      100% {
+        transform: translateY(-110vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+    .container {
+      width: 90%;
+      max-width: 950px;
+      margin: auto;
+      padding: 70px 0;
+      text-align: center;
+    }
+
+    .small-title {
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      font-size: 13px;
+      color: #e8b6d9;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(55px, 11vw, 110px);
+      line-height: 0.9;
+      margin-bottom: 20px;
+      background: linear-gradient(90deg, #fff, #f4b7dd, #fff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .eighteen {
+      font-size: clamp(18px, 4vw, 28px);
+      letter-spacing: 8px;
+      color: #f4b7dd;
+      margin-bottom: 50px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255,255,255,0.15);
+      backdrop-filter: blur(15px);
+      border-radius: 30px;
+      padding: 45px;
+      margin: 30px auto;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    }
+
+    .card h2 {
+      font-size: 32px;
+      margin-bottom: 25px;
+      color: #f4b7dd;
+    }
+
+    .message {
+      font-size: 18px;
+      line-height: 1.9;
+      color: #f5edf5;
+    }
+
+    .message span {
+      color: #f4b7dd;
+      font-weight: bold;
+    }
+
+    /* Counter */
+    .counter-title {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #d9b8d1;
+      letter-spacing: 2px;
+    }
+
+    .counter {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin: 25px 0;
+    }
+
+    .time-box {
+      min-width: 100px;
+      padding: 20px 15px;
+      border-radius: 20px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+    }
+
+    .time-box strong {
+      display: block;
+      font-size: 30px;
+      color: #fff;
+    }
+
+    .time-box small {
+      color: #d7bfd2;
+      text-transform: uppercase;
+      font-size: 10px;
+      letter-spacing: 2px;
+    }
+
+    .timeline {
+      margin-top: 35px;
+      text-align: left;
+      border-left: 2px solid #d783bb;
+      padding-left: 25px;
+    }
+
+    .timeline-item {
+      margin-bottom: 30px;
+    }
+
+    .timeline-item h3 {
+      color: #f4b7dd;
+      margin-bottom: 8px;
+    }
+
+    .timeline-item p {
+      color: #e8dce7;
+      line-height: 1.7;
+    }
+
+    .promise {
+      font-size: 25px;
+      line-height: 1.6;
+      color: #fff;
+      margin-top: 15px;
+    }
+
+    .signature {
+      margin-top: 40px;
+      font-size: 20px;
+      color: #f4b7dd;
+      font-style: italic;
+    }
+
+    .footer {
+      margin-top: 50px;
+      color: #9d8199;
+      font-size: 13px;
+      letter-spacing: 2px;
+    }
+
+    .glow {
+      text-shadow: 0 0 20px rgba(244,183,221,0.5);
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 28px 20px;
+      }
+
+      .message {
+        font-size: 16px;
+      }
+
+      .time-box {
+        min-width: 75px;
+      }
+
+      .time-box strong {
+        font-size: 23px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Floating hearts -->
+  <div class="heart" style="left:5%; animation-delay:0s;">♡</div>
+  <div class="heart" style="left:15%; animation-delay:2s;">♥</div>
+  <div class="heart" style="left:30%; animation-delay:4s;">♡</div>
+  <div class="heart" style="left:48%; animation-delay:1s;">♥</div>
+  <div class="heart" style="left:65%; animation-delay:3s;">♡</div>
+  <div class="heart" style="left:80%; animation-delay:5s;">♥</div>
+  <div class="heart" style="left:92%; animation-delay:2.5s;">♡</div>
+
+  <main class="container">
+
+    <div class="small-title">Just a small thing for the loml</div>
+
+    <h1 class="glow">LEENA</h1>
+
+    <div class="eighteen">HAPPY 18TH BIRTHDAY BABY</div>
+
+    <!-- Time Together -->
+    <div class="card">
+
+      <h2>From the 8th of August</h2>
+
+      <p class="counter-title">
+        How long since we started talking
+      </p>
+
+      <div class="counter">
+
+        <div class="time-box">
+          <strong id="days">0</strong>
+          <small>Days</small>
+        </div>
+
+        <div class="time-box">
+          <strong id="hours">0</strong>
+          <small>Hours</small>
+        </div>
+
+        <div class="time-box">
+          <strong id="minutes">0</strong>
+          <small>Minutes</small>
+        </div>
+
+        <div class="time-box">
+          <strong id="seconds">0</strong>
+          <small>Seconds</small>
+        </div>
+
+      </div>
+
+      <p class="message">
+        From <span>August 8th</span> to today, we've created something
+        that means more to me than I can properly put into words.
+      </p>
+
+    </div>
+
+
+    <!-- Main Letter -->
+    <div class="card">
+
+      <h2>For You,</h2>
+
+      <div class="message">
+
+        <p>
+          Happy 18th birthday my love, i've been meaning to make this for you the day we met and actually even before that. ❤️
+        </p>
+
+        <br>
+
+        <p>
+          Honestly, it's crazy to think that you've been my dream girl
+          since <span>2023</span>. Back then, I used to check your posts,
+          look at your pictures, look at peoples story who wish for you on your birthday
+          and imagine what it would be like if
+          you and I were together.
+        </p>
+
+        <br>
+
+        <p>
+          And somehow, after all that time, I actually get to have you
+          in my life. I don't think you realize how lucky I am because
+          of that.
+        </p>
+
+        <br>
+
+        <p>
+          I like you more than I can explain, and I love the person you
+          are. Your personality, the way you make me feel, the little
+          things about you — they all make you incredibly special to me.
+        </p>
+
+        <br>
+
+        <p>
+          We're not officially dating right now, but what we have means
+          a lot to me. And I love that we're building something slowly for a better outcome
+          genuinely and together.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <!-- Our Future -->
+    <div class="card">
+
+      <h2>And Maybe One Day...
+      </h2>
+
+      <p class="promise">
+
+        When we're in our 20's, I hope we look back at these days and smile at
+        how everything started.
+
+        <br><br>
+
+        I hope we're still choosing each other, still laughing together,
+        still making memories and finally starting the life we've
+        talked about.
+
+        <br><br>
+
+        And I hope this is only the beginning of all the birthdays
+        we're going to celebrate together.
+
+      </p>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <h3>2023</h3>
+          <p>
+            The year you became my biggest crush — even before you knew
+            just how much I thought about you.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>August 8th</h3>
+          <p>
+            The day our story started becoming something real thanks to the pringles chocolate dada got for you(thank you shafraz uncle)
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Today</h3>
+          <p>
+            Your special day. A new chapter of your life and another
+            memory for us to keep forever because your going to dance today
+            and yes im gonna see you dance for the first time😝.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>— Hopefully Forever</h3>
+          <p>
+            The future we've talked about. Whatever happens,
+            I hope we keep choosing each other and making beautiful
+            memories along the way.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- Ending -->
+    <div class="card">
+
+      <h2>One Last Thing...</h2>
+
+      <p class="message">
+
+        Leena, thank you for coming into my life.
+
+        <br><br>
+
+        Thank you for being the person I once only dreamed about
+        and somehow became someone I get to talk to every day.
+
+        <br><br>
+
+        I'm genuinely so lucky to have you.
+
+        <br><br>
+
+        Here's to 18, to everything that's happened so far,
+        and hopefully to all the birthdays, adventures, laughs,
+        memories and moments that are still waiting for us.
+
+      </p>
+
+      <div class="signature">
+        Happy Birthday, Leena. ❤️
+        <br>
+        Here's to many more.
+      </div>
+
+    </div>
+
+    <div class="footer">
+      HAVE A GREAT AND FUN DAY TODAY!!
+    </div>
+
+  </main>
+
+
+  <script>
+
+    /*
+      CHANGE THIS DATE IF NEEDED.
+
+      The counter starts from August 8, 2026.
+      It counts continuously from that moment until now.
+    */
+
+    const startDate = new Date("2026-08-08T00:00:00");
+
+    function updateCounter() {
+
+      const now = new Date();
+
+      let difference = now - startDate;
+
+      if (difference < 0) {
+        difference = 0;
+      }
+
+      const seconds = Math.floor(difference / 1000);
+
+      const days = Math.floor(seconds / 86400);
+      const hours = Math.floor((seconds % 86400) / 3600);
+      const minutes = Math.floor((seconds % 3600) / 60);
+      const secs = seconds % 60;
+
+      document.getElementById("days").textContent = days;
+      document.getElementById("hours").textContent =
+        String(hours).padStart(2, "0");
+
+      document.getElementById("minutes").textContent =
+        String(minutes).padStart(2, "0");
+
+      document.getElementById("seconds").textContent =
+        String(secs).padStart(2, "0");
+    }
+
+    updateCounter();
+
+    setInterval(updateCounter, 1000);
+
+  </script>
+
+</body>
+</html>
